@@ -2,5 +2,5 @@
 Landing page sencilla de lyft para practicar con css
 
 
-#Link
+# Link
 https://danielcusanchez.github.io/replica-lyft/.
