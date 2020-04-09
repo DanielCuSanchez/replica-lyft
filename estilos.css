@@ -7,6 +7,7 @@ header {
   border: 1px solid gray;
   display: flex;
   justify-content: space-between;
+  height: 10vh;
 }
 .header-divs {
   width: 50%;
@@ -58,10 +59,67 @@ a:hover {
   filter: grayscale(100%);
 }
 #cajaDeVideo {
-  height: 75vh;
-  border: 2px solid red;
+  height: 70vh;
+  /* border: 2px solid red; */
 }
 #video {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+#cajaDeConductor {
+  height: 18vh;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#butonAplicar {
+  border: 2px solid grey;
+  border-radius: 120px;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#butonAplicar:hover {
+  border: 2px solid grey;
+  background-color: rgba(211, 203, 203, 0.486);
+  border-radius: 120px;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#butonIgual {
+  width: 300px;
+  height: 40px;
+  border-radius: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#butonIgual:hover {
+  border: 2px solid gray;
+  background-color: rgba(211, 203, 203, 0.486);
+  width: 300px;
+  height: 40px;
+  border-radius: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aDeConductor {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
