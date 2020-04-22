@@ -1,0 +1,14 @@
+button {
+  border: none;
+  padding: 30px;
+  margin: 30px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+}
+.estanque{
+  display: flex;
+  justify-content: center;
+}
